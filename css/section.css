@@ -1,0 +1,439 @@
+/* 第一部分 */
+
+.picture {
+    margin-top: 30px;
+}
+
+.picture .col-xs-4 {
+    width: 375px;
+}
+
+.picture .col-xs-4:hover a span,
+section .imgs ul li:hover a span {
+    color: black;
+}
+
+.picture .right {
+    margin-right: 15px;
+}
+
+.picture img {
+    width: 375px;
+    height: 240px;
+}
+
+.picture img:hover {
+    box-shadow: 2px 2px 2px 2px #999;
+}
+
+.picture a span {
+    width: 375px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #ccd6e2;
+}
+
+.picture a span,
+section .imgs li a span {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    text-align: center;
+}
+
+
+/* 第二部分 */
+
+section .second {
+    background-color: #fff;
+    margin-top: 30px;
+    height: 590px;
+}
+
+section .dynamic {
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+section .col-xs-6 p {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #666;
+}
+
+section .news {
+    width: 580px;
+    height: 461px;
+}
+
+section .news li {
+    width: 560px;
+    height: 60px;
+    line-height: 30px;
+    font-size: 14px;
+    position: relative;
+}
+
+section .news li span {
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+
+section .news li .left {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
+
+section .news li .left .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+section .news li .left .dis {
+    border-radius: 50%;
+    background-color: #ccc;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+section .news li .left .dis,
+section .news li .left .trang {
+    width: 10px;
+    height: 10px;
+}
+
+section .news li .left .trang {
+    border-color: transparent #64b7f7 transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    display: none;
+}
+
+section .news li .right {
+    width: 498px;
+    height: 60px;
+    border-radius: 5px;
+    text-indent: 20px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+
+section .news li .right:hover {
+    background-color: #64b7f7;
+}
+
+section .news li .right:hover a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+section .news li .right:hover span {
+    color: #fff;
+}
+
+section .news p:last-child {
+    margin-left: 300px;
+}
+
+section .news p a {
+    color: #333;
+    font-size: 14px;
+}
+
+section .news p a:hover .iconfont {
+    background-color: #999;
+    color: #fff;
+}
+
+section .news p .iconfont {
+    background-color: white;
+    border-radius: 50%;
+    color: #999;
+    border: 1px solid #999;
+}
+
+section .imgs {
+    width: 580px;
+    height: 461px;
+    margin-left: 10px;
+}
+
+section .imgs ul {
+    width: 565px;
+    height: 400px;
+}
+
+section .imgs ul li {
+    margin: 0;
+    width: 269px;
+    height: 190px;
+    position: relative;
+}
+
+section .imgs ul li:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+section .imgs ul .l1 {
+    margin-right: 20px;
+}
+
+section .imgs ul #l2,
+section .imgs ul #l3 {
+    margin-bottom: 20px;
+}
+
+section .imgs ul li a img {
+    width: 269px;
+    height: 190px;
+}
+
+section .imgs ul li a span {
+    width: 269px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 0px;
+}
+
+
+/* 第三部分 */
+
+section .Work {
+    height: 500px;
+    background-image: url('../images/bg1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    box-sizing: border-box;
+}
+
+section .container .work {
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+section .workImg .col-xs-4 {
+    width: 390px;
+    cursor: pointer;
+    margin-left: -15px;
+    position: relative;
+}
+
+section .workImg .tu1 {
+    margin-right: 22px;
+}
+
+section .workImg .col-xs-4:hover p:first-child {
+    background-color: #fff;
+    color: black;
+    box-shadow: 2px 2px 2px 2px #666;
+}
+
+section .workImg .col-xs-4 p:first-child {
+    width: 370px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+}
+
+section .workImg .col-xs-4 div {
+    margin-top: -10px;
+}
+
+section .workImg div img {
+    width: 370px;
+}
+
+section .workImg .col-xs-4 p span span {
+    width: 25px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: 58px;
+    left: 186px;
+    border-radius: 5px;
+}
+
+section .workImg .col-xs-4 div .m1 {
+    width: 370px;
+    height: 230px;
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.30);
+    display: none;
+}
+
+section .workImg .col-xs-4 div .m1 img {
+    width: 60px;
+    height: 60px;
+}
+
+section .workImg .col-xs-4 div .m1 span {
+    color: white;
+    font-size: 20px;
+    line-height: 230px;
+}
+
+
+/* 第四部分 */
+
+.sou .dynamic {
+    border-bottom: none;
+}
+
+
+/* 第五部分 */
+
+.doodle .lunbo {
+    width: 1170%;
+    text-align: center;
+}
+
+.doodle .lunbo li {
+    margin-right: 0px;
+    width: 388px;
+    height: 240px;
+}
+
+.doodle .lunbo li p:first-child {
+    height: 20px;
+    color: #e10602;
+    font-size: 18px;
+}
+
+.doodle .lunbo li p:nth-child(2) {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.doodle .lunbo li img {
+    width: 375px;
+    height: 160px;
+}
+
+.doodle .p {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.doodle .p a {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #327bde;
+    color: #327bde;
+    border-radius: 25px;
+}
+
+.doodle .p a:hover {
+    background-color: #327bde;
+    color: white;
+}
+
+
+/* 第六部分 */
+
+section .introduce .col-xs-3 {
+    height: 300px;
+    position: relative;
+}
+
+section .introduce .png1 {
+    margin-right: 10px;
+}
+
+section .introduce .col-xs-3,
+section .introduce .col-xs-3 img,
+section .introduce .col-xs-3 p,
+section .introduce .col-xs-3 .out {
+    width: 285px;
+}
+
+section .introduce .col-xs-3 img {
+    height: 300px;
+    margin-left: -15px;
+    border-radius: 5px;
+}
+
+section .introduce .col-xs-3 .in p {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 100px;
+    font-size: 24px;
+    margin-left: -15px;
+}
+
+section .introduce .col-xs-3 .out {
+    height: 300px;
+    color: white;
+    background: rgba(34, 152, 244, 0.65);
+    z-index: 99;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+section .introduce .col-xs-3 .out p:first-child {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+section .introduce .col-xs-3 .out span {
+    display: block;
+    width: 200px;
+    margin-left: 40px;
+    border-bottom: 1px solid #fff;
+}
+
+section .introduce .col-xs-3 .out p:nth-child(3) {
+    margin-top: 20px;
+}
+
+section .introduce .col-xs-3 .out a {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgba(34, 152, 244, 0.65);
+    background-color: #fff;
+    font-size: 14px;
+}
+
+section .introduce .col-xs-3 .out a:hover {
+    color: black;
+}

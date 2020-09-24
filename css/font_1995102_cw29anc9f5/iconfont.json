@@ -1,0 +1,30 @@
+{
+  "id": "1995102",
+  "name": "项目2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14509407",
+      "name": "大于",
+      "font_class": "dayu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3580790",
+      "name": "回到顶部箭头",
+      "font_class": "huidaodingbujiantou",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "5281992",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

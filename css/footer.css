@@ -1,0 +1,14 @@
+footer dl {
+    width: 180px;
+    float: left;
+}
+
+footer .container dt {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+footer .container dd a {
+    color: #999;
+}
